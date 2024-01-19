@@ -5,29 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" type ="text/css" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | NFT preview card component</title>
+  <meta http-equiv="refresh" content="5">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <!-- class links this to the .card in the css files-->
+  <main class="card">
+<div class=""image__Card"></div>
+  <!-- class links this to the .equilibrium__image in the css files-->
+    <img src="assets/images/image-equilibrium.jpg"
+    class=""equilibrium__image" alt="">
   </div>
+
+  <div class=""text__card">
+  <h1>
+    Equilibrium #3429
+  </h1>
+  <p>
+    Our Equilibrium collection promotes balance and calm.
+  </p>
+  <div class="eth__days">
+    <div class="eth">
+      <img src= "assets/images/icon-ethereum.svg"
+      class=""eth__icon: alt="">
+      <h3>
+        0.041 ETH
+      </h3>
+    </div>
+    <div class="days"></div>
+    <img src="assets/images/icon-clock.svg"
+    class=""class__icon" alt="">
+    <p>
+      3 days left
+    </p>
+  </div>
+</div>
+<hr class="line">
+<div class="profiles">
+  <div class="profile__image">
+    <img src="assets/images/image-avatar.png"
+    alt="">
+  </div>
+  <p>
+    Creation of <span>Jules Wyverr</span>
+  </p>
+</div>
+  </main>
+  <!-- attribution by deafult-->
 </body>
 </html>
